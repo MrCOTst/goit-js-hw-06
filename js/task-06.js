@@ -14,5 +14,6 @@ function verification(event) {
     event.currentTarget.classList.remove("invalid");
   } else {
     event.currentTarget.classList.add("invalid");
+    event.currentTarget.classList.remove("valid");
   }
 }
